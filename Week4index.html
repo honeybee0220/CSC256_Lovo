@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slideshow</title>
+    <link rel="stylesheet" href="week4style.css">
+</head>
+<body>
+
+<h1>Puppy Slideshow</h1>
+
+<div class="slideshow-container">
+    <div class="slides">
+        <img src="images/dog1.jpg" style="width:100%">
+        <div class="caption">Corgi and Yorkie Besties</div>
+    </div>
+    <div class="slides">
+        <img src="images/dog2.jpg" style="width:100%">
+        <div class="caption"> Golden Retreivers Puppies </div>
+    </div>
+    <div class="slides">
+        <img src="images/dog3.jpg" style="width:100%">
+        <div class="caption">Border Collies Puppies</div>
+    </div>
+    <div class="slides">
+        <img src="images/dog4.jpg" style="width:100%">
+        <div class="caption">Australian Sheperd Puppies</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<br>
+
+<div class="dots">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
+</div>
+
+<script src="week4script.js"></script>
+
+</body>
+</html>
+
