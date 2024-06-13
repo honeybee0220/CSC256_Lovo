@@ -1,0 +1,48 @@
+body {
+    background-color: #b2f2bb; /* pastel green */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #6c757d; /* pastel gray */
+}
+
+#movieInput {
+    padding: 10px;
+    border: 2px solid #6c757d;
+    border-radius: 5px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button:nth-child(1) {
+    background-color: #63cdda; /* pastel blue */
+}
+
+button:nth-child(2) {
+    background-color: #63cdda; /* pastel blue */
+}
+
+button:nth-child(3) {
+    background-color: #ffb3c1; /* pastel pink */
+}
+
+#movieList {
+    margin-top: 20px;
+    background-color: #d4f0fc; /* lighter pastel blue */
+    padding: 10px;
+    border-radius: 5px;
+}
