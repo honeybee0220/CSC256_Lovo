@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); /* Importing a retro font */
+
+/* General body styling */
+body {
+    font-family: 'Press Start 2P', cursive; /* Applying retro font */
+    background-color: #000; /* Black background */
+    color: #00ff00; /* Green text color */
+    margin: 20px;
+    padding: 0;
+}
+
+/* Styling for the main title */
+h1 {
+    text-align: center;
+    color: #ff00ff; /* Magenta title color */
+}
+
+/* Styling for the form container */
+.form-container {
+    background-color: #333; /* Dark grey background */
+    padding: 20px;
+    border: 2px solid #ff00ff; /* Magenta border */
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Styling for labels in the form */
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Styling for input fields in the form */
+.form-container input {
+    width: calc(100% - 24px); /* Adjusting width to fit container */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #00ff00; /* Green border */
+    border-radius: 5px;
+    background-color: #000; /* Black background */
+    color: #00ff00; /* Green text color */
+    font-family: 'Press Start 2P', cursive; /* Applying retro font */
+    box-sizing: border-box;
+}
+
+/* Styling for the submit button */
+button {
+    width: calc(100% - 24px); /* Adjusting width to fit container */
+    padding: 10px;
+    background-color: #ff00ff; /* Magenta background */
+    color: #000; /* Black text color */
+    border: none;
+    border-radius: 5px;
+    font-family: 'Press Start 2P', cursive; /* Applying retro font */
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+/* Styling for the submit button on hover */
+button:hover {
+    background-color: #00ff00; /* Green background */
+    color: #000; /* Black text color */
+}
+
+/* Styling for the output container */
+.output-container {
+    background-color: #333; /* Dark grey background */
+    padding: 20px;
+    border: 2px solid #00ff00; /* Green border */
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+/* Styling for the output container title */
+.output-container h2 {
+    color: #ff00ff; /* Magenta title color */
+}
+
+/* Styling for the output paragraphs */
+.output-container p {
+    margin: 10px 0;
+}

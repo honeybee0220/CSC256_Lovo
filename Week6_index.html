@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Start Form</title>
+    <link rel="stylesheet" href="styles_Week6.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <h1>Game Start Form</h1> <!-- Page title -->
+
+    <!-- Form container to capture user inputs -->
+    <div class="form-container">
+        <label for="username">User Name:</label>
+        <input type="text" id="username" name="username"><br><br>
+
+        <label for="weapons">Weapons:</label>
+        <input type="text" id="weapons" name="weapons"><br><br>
+
+        <label for="health">Health/Damage:</label>
+        <input type="number" id="health" name="health"><br><br>
+
+        <label for="points">Point Total:</label>
+        <input type="number" id="points" name="points"><br><br>
+
+        <!-- Submit button to trigger the form submission -->
+        <button onclick="submitForm()">Submit</button>
+    </div>
+
+    <!-- Output container to display user inputs -->
+    <div class="output-container" id="output">
+        <h2>Game Information</h2>
+        <p id="output-username"></p>
+        <p id="output-weapons"></p>
+        <p id="output-health"></p>
+        <p id="output-points"></p>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script_Week6.js"></script>
+</body>
+</html>
