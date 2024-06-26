@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif; /* Font style for the body */
+    background-color: #f9f5ff; /* Pastel background color */
+    color: #333; /* Text color */
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Column direction for flex items */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center text */
+}
+
+h1 {
+    font-size: 24px; /* Title font size */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+#crossword-container {
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background-color: #faf3e0; /* Light pastel background */
+    padding: 20px; /* Padding around the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 20px; /* Space below the crossword container */
+}
+
+#crossword {
+    display: grid; /* Grid layout */
+    grid-template-columns: repeat(11, 40px); /* 11 columns, each 40px wide */
+    grid-template-rows: repeat(11, 40px); /* 11 rows, each 40px tall */
+    gap: 5px; /* Space between grid items */
+}
+
+.cell {
+    width: 40px; /* Cell width */
+    height: 40px; /* Cell height */
+    border: 1px solid #ccc; /* Border color */
+    text-align: center; /* Center text horizontally */
+    line-height: 40px; /* Center text vertically */
+    font-size: 18px; /* Font size for text */
+    background-color: #eae7fa; /* Pastel cell background */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.clue {
+    text-align: left; /* Align text to the left */
+    background-color: #faf3e0; /* Light pastel background */
+    padding: 20px; /* Padding around the clue container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
