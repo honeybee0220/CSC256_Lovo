@@ -1,0 +1,43 @@
+/* Basic styling for the body to center the chessboard */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/* Chessboard container styling */
+#chessboard {
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+    grid-template-rows: repeat(8, 60px);
+    border: 2px solid #333;
+}
+
+/* Individual square styling */
+.square {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Red and black colors for the squares */
+.black {
+    background-color: #000000;
+}
+
+.red {
+    background-color: #ff0000;
+}
+
+/* Hover effect for the squares */
+.square:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
