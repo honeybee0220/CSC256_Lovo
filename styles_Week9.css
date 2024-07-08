@@ -1,0 +1,55 @@
+/* Basic styling for the body */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the checkers board */
+#board {
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+    grid-template-rows: repeat(8, 60px);
+    gap: 2px;
+    margin-top: 20px;
+}
+
+/* Styling for individual squares */
+.square {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Black and white squares */
+.black {
+    background-color: #000;
+}
+
+.white {
+    background-color: #fff;
+}
+
+/* Styling for checkers pieces */
+.piece {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Red and blue pieces */
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
