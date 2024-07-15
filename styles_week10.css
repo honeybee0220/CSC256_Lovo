@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fef7fb; /* Very light pastel pink */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#shop {
+    background-color: #ffffff; /* White background */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+button {
+    background-color: #add8e6; /* Light pastel blue */
+    border: none;
+    color: #ffffff; /* White text */
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #87ceeb; /* Slightly darker pastel blue */
+}
+
+#cart {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333333;
+    background-color: #ffefd5; /* Light pastel peach */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
