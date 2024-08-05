@@ -1,0 +1,126 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif; /* Set the font family */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #EAF6F6; /* Light pastel blue background */
+    color: #333; /* Text color */
+}
+
+/* Header styles */
+header {
+    background-color: #A7C7E7; /* Pastel blue background */
+    color: white; /* Text color */
+    padding: 20px 0; /* Padding for the header */
+    text-align: center; /* Center align the text */
+}
+
+header h1 {
+    margin: 0; /* Remove default margin */
+}
+
+nav ul {
+    list-style-type: none; /* Remove list style */
+    padding: 0; /* Remove default padding */
+    margin: 10px 0 0 0; /* Set margin */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin: 0 15px; /* Set margin */
+}
+
+nav ul li a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove text decoration */
+    font-weight: bold; /* Bold text */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline text on hover */
+}
+
+/* Main content styles */
+main {
+    padding: 20px; /* Padding for the main content */
+}
+
+/* Slideshow styles */
+#slideshow, #course-slideshow {
+    position: relative; /* Relative positioning */
+    max-width: 100%; /* Maximum width */
+    margin: auto; /* Center align */
+}
+
+.slides, .course-slides {
+    display: none; /* Hide slides */
+}
+
+.slides img, .course-slides img {
+    width: 100%; /* Full width */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Section styles */
+section {
+    background-color: #D4E6F1; /* Lighter pastel blue background */
+    padding: 20px; /* Padding for the section */
+    margin: 20px 0; /* Margin for the section */
+    border-radius: 10px; /* Rounded corners */
+}
+
+section h2 {
+    color: #2C3E50; /* Darker blue text */
+    margin-bottom: 10px; /* Bottom margin */
+}
+
+section p, section ul {
+    color: #34495E; /* Dark blue text */
+}
+
+/* Summary box styles */
+.summary-box {
+    background-color: #A7C7E7; /* Pastel blue background */
+    color: white; /* Text color */
+    padding: 10px; /* Padding for the summary box */
+    margin: 10px 0; /* Margin for the summary box */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Review box styles */
+.review-box {
+    background-color: #B0E0E6; /* Another shade of pastel blue background */
+    color: #2C3E50; /* Darker blue text */
+    padding: 10px; /* Padding for the review box */
+    margin: 20px 0; /* Increased gap between reviews */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #89A9C8; /* Slightly darker pastel blue border */
+}
+
+/* Footer styles */
+footer {
+    background-color: #A7C7E7; /* Pastel blue background */
+    color: white; /* Text color */
+    text-align: center; /* Center align the text */
+    padding: 10px 0; /* Padding for the footer */
+}
+
+/* Hidden class for scenarios */
+.hidden {
+    display: none; /* Hide element */
+}
+
+/* Scenario response styles */
+.scenario p {
+    font-weight: bold; /* Bold text */
+}
+
+/* Link styles */
+a {
+    color: #2C3E50; /* Darker blue text */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
